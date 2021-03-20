@@ -1,0 +1,35 @@
+<button (click)="hello()">Switch</button>
+<div>
+  <p>{{'HELLO hi'}}</p>
+</div>
+
+<p>{{'HELLO hi' |language}}</p>
+
+<div>
+  <p>{{'HELLO bye'|lowercase}}</p>
+</div>
+<div>
+  <p>{{'HELLO bye'|titlecase}}</p>
+</div>
+<div>
+  <p>{{now}}</p>
+</div>
+<div>
+  <p>{{'HELLO bye'}}</p>
+</div>
+
+<div>
+  <p>{{now|date}}</p>
+</div>
+
+<div>
+  <p>{{now|date:'short'}}</p>
+</div>
+
+<div>
+  <p>{{now|date:'long'}}</p>
+</div>
+
+<div>
+  <p>{{now|date:'long'|uppercase}}</p>
+</div>

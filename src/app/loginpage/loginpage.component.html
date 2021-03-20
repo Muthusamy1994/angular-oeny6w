@@ -1,0 +1,10 @@
+<h1>Fita / Registration</h1>
+
+<form id="form1">
+  <label id="name1"><i class="fas fa-user-tie"></i> {{'USERNAME' | language}} :</label>
+  <input type="text" [value]="hellos" /><br /><br />
+  <label id="name1"><i class="fas fa-unlock-alt"></i> {{'PASSWORD' | language}} :</label>
+  <input type="password" name="passward" /><br /><br />
+
+  <button (click)="hello()">{{ 'SUBMIT' | language}}</button>
+</form>
